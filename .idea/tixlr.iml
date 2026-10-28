@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/tixlr/vendor/bacon/bacon-qr-code" />
+      <excludeFolder url="file://$MODULE_DIR$/tixlr/vendor/chillerlan/php-qrcode" />
+      <excludeFolder url="file://$MODULE_DIR$/tixlr/vendor/chillerlan/php-settings-container" />
+      <excludeFolder url="file://$MODULE_DIR$/tixlr/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/tixlr/vendor/dasprid/enum" />
+      <excludeFolder url="file://$MODULE_DIR$/tixlr/vendor/endroid/qr-code" />
+      <excludeFolder url="file://$MODULE_DIR$/tixlr/vendor/phpmailer/phpmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/tixlr/vendor/stripe/stripe-php" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

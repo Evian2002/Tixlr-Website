@@ -1,0 +1,226 @@
+/* GLOCK GROTESK FONT */
+@font-face {
+    font-family: 'Glock Grotesk';
+    src: url('../fonts/block-grotesque/GlockGrotesque-Medium.woff2') format('woff2'),
+    url('../fonts/block-grotesque/GlockGrotesque-Medium.woff') format('woff'),
+    url('../fonts/block-grotesque/GlockGrotesque-Medium.eot') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body, .navbar-brand, .nav-link, h1, h2, h3, h4, h5, h6, .card-title, button, .btn {
+    font-family: 'Glock Grotesk', sans-serif !important;
+    line-height: 1.3;
+}
+html {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-smooth: always;
+}
+
+body, .navbar-brand, .nav-link, h1, h2, h3, h4, h5, h6, .card-title, .btn, p {
+    font-family: 'Glock Grotesk', sans-serif !important;
+    line-height: 1.5;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+/* GLOBAL RESET / BASE */
+* {
+    box-sizing: border-box;
+    line-height: 1.3;
+}
+
+body {
+    margin: 0;
+    padding-top: 80px;
+    background: #1a1b32;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #2a2c45 !important;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: #fff5db !important;
+    font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+    color: #67ffbb !important;
+}
+
+/* BANNER (used on index and reusable elsewhere) */
+.banner {
+    min-height: 160px;
+    background: #fff5db;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+
+/* CARDS – unified look across site */
+.card {
+    background: #fff5db;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.card-title a:hover {
+    text-decoration: underline;
+}
+
+/* BUTTONS */
+.btn-primary {
+    background-color: #2a2c45 !important;
+    border-color: #2a2c45 !important;
+    color: #fff5db !important;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: #3fc88b !important;
+    border-color: #3fc88b !important;
+    color: #1a1b32 !important;
+}
+
+.btn-outline-primary {
+    border-color: #2a2c45 !important;
+    color: #2a2c45 !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: #2a2c45 !important;
+    color: #fff5db !important;
+}
+
+/* FILTER BOX (index + events filters) */
+.filter-box {
+    background: #2a2c45;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.filter-box label {
+    color: #fff5db;
+}
+
+/* SOLD OUT TEXT */
+.sold-out,
+.text-danger.fw-bold {
+    color: #d9534f !important;
+    font-weight: 700 !important;
+}
+
+/* TABLES (if needed later) */
+.table {
+    background: #fff5db;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* FORMS – general feel */
+.form-control,
+.form-select {
+    border-radius: 6px;
+}
+
+/* ADMIN/CLIENT PAGE TITLES */
+.page-title {
+    color: #fff5db;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* OPTIONAL: CONTAINER PADDING STANDARDIZATION */
+.main-container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* LINKS ON DARK BACKGROUNDS */
+a {
+    color: #67ffbb;
+}
+
+a:hover {
+    color: #3fc88b;
+}
+.page-title {
+    color: #fff5db;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.auth-box {
+    background: #fff5db;
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 80px auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.page-title {
+    color: #2a2c45;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.event-banner {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.section-title {
+    color: #2a2c45;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.map-container {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.main-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.card {
+    background: #fff5db;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.page-title {
+    font-weight: 700;
+    text-align: center;
+}
